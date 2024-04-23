@@ -1,0 +1,10 @@
+name = "MegaQuiverTools"
+uuid = "0ddfd6eb-1c3d-4d06-baa5-94d3a69533f1"
+authors = ["Gianni Petrella <gianni.petrella99@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Memoize = "c03570c3-d221-55d1-a50c-7939bbd78826"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"

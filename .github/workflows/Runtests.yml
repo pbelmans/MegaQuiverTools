@@ -1,0 +1,19 @@
+name: Runtests
+on:
+  push:
+    paths:
+      - 'src/**'
+      - 'test/**'
+      - '.github/workflows/Runtests.yml'
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        julia-arch: [x64]
+        os: [ubuntu-latest] # [ubuntu-latest, windows-latest, macOS-latest]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: julia-actions/setup-julia@latest
+      - uses: julia-actions/julia-buildpkg@latest
+      - uses: julia-actions/julia-runtest@latest
