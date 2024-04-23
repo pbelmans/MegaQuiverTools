@@ -43,8 +43,4 @@ QuiverTools is being developed by [P. Belmans](https://pbelmans.ncag.info/), H. 
 
 The Julia version is developed and maintained by [G. Petrella](https://www.giannipetrella.eu).
 
-P. B. was partially supported by the Luxembourg National Research Fund (FNR–17113194).
-
-H. F. was partially supported by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) SFB-TRR 358/1 2023 “Integral Structures in Geometry and Representation Theory” (491392403).
-
-G. P. was supported by the Luxembourg National Research Fund (FNR–17953441).
+G. Petrella was supported by the Luxembourg National Research Fund (FNR–17953441).
