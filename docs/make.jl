@@ -22,6 +22,6 @@ makedocs(
 # See "Hosting Documentation" and deploydocs() in the Documenter manual
 # for more information.
 
-# deploydocs(
-    # repo = "github.com/Catullo99/MegaQuiverTools.jl.git"
-# )
+deploydocs(
+    repo = "github.com/Catullo99/MegaQuiverTools.jl.git"
+)

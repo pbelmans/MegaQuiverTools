@@ -3,7 +3,7 @@
 [![tests](https://github.com/Catullo99/MegaQuiverTools.jl/actions/workflows/Runtests.yml/badge.svg)](https://github.com/Catullo99/MegaQuiverTools.jl/actions/workflows/Runtests.yml)
 [![docs](https://github.com/Catullo99/MegaQuiverTools.jl/actions/workflows/Documenter.yml/badge.svg)](https://github.com/Catullo99/MegaQuiverTools.jl/actions/workflows/Documenter.yml)
 
-This is the stripped down version of QuiverTools that will be submitted to MEGA.
+This is a preliminary version of QuiverTools.
 
 ## Installation
 
