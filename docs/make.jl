@@ -23,5 +23,5 @@ makedocs(
 # for more information.
 
 deploydocs(
-    repo = "github.com/Catullo99/MegaQuiverTools.jl.git"
+    repo = "github.com/Catullo99/MegaQuiverTools.git"
 )
