@@ -10,6 +10,7 @@ CurrentModule = MegaQuiverTools
 
 makedocs(
     sitename = "MegaQuiverTools",
+    authors = ["Gianni Petrella"],
     format = Documenter.HTML(),
     # format = Documenter.LaTeX(), # builds pdf, does not like the github Documenter action for now. Use only in local build.
     modules = [MegaQuiverTools],
@@ -22,6 +23,4 @@ makedocs(
 # See "Hosting Documentation" and deploydocs() in the Documenter manual
 # for more information.
 
-deploydocs(
-    repo = "github.com/Catullo99/MegaQuiverTools.git"
-)
+deploydocs(repo = "github.com/Catullo99/MegaQuiverTools")
