@@ -10,7 +10,7 @@ This is a preliminary version of QuiverTools.
 Once a functioning version of Julia is installed on the machine, the following command can be used to install the package:
 
 ```julia-repl
-]add https://github.com/Catullo99/MegaQuiverTools.jl.git
+]add https://github.com/Catullo99/MegaQuiverTools.git
 ```
 
 One can alternatively clone the repository and install the package from the local copy:
@@ -23,7 +23,7 @@ This _should_ add the package to the Julia environment and let Julia understand 
 
 ## Documentation
 
-The documentation is hosted on GitHub Pages. It can be found [here](https://catullo99.github.io/MegaQuiverTools.jl/).
+The documentation is hosted on GitHub Pages. It can be found [here](https://catullo99.github.io/MegaQuiverTools/).
 
 To build a local .pdf version of the documentation, first modify the make.jl file by replacing the parameter ``format = Documenter.HTML()`` with ``format = Documenter.LaTeX()``, then run
 
